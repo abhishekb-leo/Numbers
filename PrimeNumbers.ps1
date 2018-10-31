@@ -6,7 +6,7 @@ param(
 clear
 write-host "This program will list the Prime numbers from 1 to $number_from_user" -foregroundcolor yellow
 write-host "Welcome to the world of Prime numbers" -foregroundcolor yellow
-write-host "==============================================" -foregroundcolor yellow
+write-host "================================================" -foregroundcolor yellow
 #$number_from_user=read-host -Prompt "Please enter the whole number integer upto which you want a list of Prime numbers" -foregroundcolor green
 if ($number_from_user -le 0){
  write-host "! Please enter a non-negative non-zero integer value.. !" -foregroundcolor magenta
@@ -22,7 +22,7 @@ else
 {
 
     write-host "Calculating Prime numbers from 1..$number_from_user" -foregroundcolor yellow
-    write-host "First prime numbers is 2"
+    write-host "First prime number is 2"
 
 # Use a nested for loop to check and print prime numbers
     for($i=2;$i -le $number_from_user;$i++){
