@@ -16,13 +16,13 @@ if ($number_from_user -le 0){
         [console]::Beep(1500,800)
         write-host "@#$@#$@#$@#$@#$*&^*&^$#&#$*((*_(*()*()#$@%#@%#"
     }
-write-host "`t`t!..UNDERSTOOD..!" -foregroundcolor magenta
+write-host "`t`t!..Please enter a positive number..!" -foregroundcolor magenta
 }
 else
 {
 
     write-host "Calculating Prime numbers from 1..$number_from_user" -foregroundcolor yellow
-    write-host "First prime numbers are 1,2"
+    write-host "First prime numbers is 2"
 
 # Use a nested for loop to check and print prime numbers
     for($i=2;$i -le $number_from_user;$i++){
